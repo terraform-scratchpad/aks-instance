@@ -6,3 +6,6 @@ variable "ssh_key" {}
 variable "aks_cluster_name" {
   default = "diordevaks"
 }
+variable "nodes_count" {
+  default = "3"
+}
